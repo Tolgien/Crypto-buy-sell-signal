@@ -17,7 +17,7 @@ class Crypto_analysis:
     recommanded_list=[]
     
 
-    #this method collect the 100 latest cryptocurrency 
+    #Bu yöntem en son 100 kripto para birimini listeler
     #filtering them by taking only the positive changes in 1h, 24h, 7d, +Vol_24h
     def get_marketCap():
         url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
